@@ -1,2 +1,22 @@
+1.)
+	AMAT 	= CahceAccessTime + (MissRate * MissPenalty)
+		= 3ns + (.1 * (30cycles * 3ns))
+		= 3ns + 9ns = 12ns
+
 2.)
 	c
+3.)
+	MissRate instCache = .011
+	MissRate dadaCache = .03
+	MissPenalty = 100 cycles
+	Load/Store rate = .3
+	CPI = 2
+	
+	chance of miss instCache per instruction = .3 * .011 = .0033	 
+	chance of miss dataCache per instruction = .3 * .03 =  .009
+	cycles lost per inst = .0033 * 100/2 + .009 * 100/2 
+			     = .165 + .45
+			     =  .21
+	instructions lost per instruction = .21 / 2 = .105
+	the processor with a perfect cache would be 10.5% faster
+	
