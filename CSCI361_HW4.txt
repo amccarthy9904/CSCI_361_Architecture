@@ -19,4 +19,8 @@
 			     =  .21
 	instructions lost per instruction = .21 / 2 = .105
 	the processor with a perfect cache would be 10.5% faster
-	
+4.)
+
+5.)
+	Yes there is an error on bit #8
+	0011 0110 0101	
