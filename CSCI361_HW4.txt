@@ -20,7 +20,21 @@
 	instructions lost per instruction = .21 / 2 = .105
 	the processor with a perfect cache would be 10.5% faster
 4.)
-
+	a.)
+		MTBF = MTTR + MTTF 
+		MTTR = 2 days 
+		MTTF = 300 days
+		MTBF = 300 + 2
+		MTBF = 302 days
+	b.)
+		Availability = MTBF / (MTBF + MTTR)
+		Availability = 302 / (302 + 2)
+		Availability = 302 / 304 
+		Availability = .993
+	c.)
+		Availibility approaches 1 as MTTR approaches 0
+	d.)
+		Availibility approaches 0 as MTTR gets very large
 5.)
 	Yes there is an error on bit #8
 	0011 0110 0101	
